@@ -1,5 +1,6 @@
 package com.zep.UserAuth.services;
 
+import com.zep.UserAuth.dtos.RegistrationRequest;
 import com.zep.UserAuth.models.User;
 
 import java.util.List;

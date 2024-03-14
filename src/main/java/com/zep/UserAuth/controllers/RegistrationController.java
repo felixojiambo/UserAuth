@@ -1,5 +1,11 @@
 package com.zep.UserAuth.controllers;
 
+import com.zep.UserAuth.Token.VerificationToken;
+import com.zep.UserAuth.dtos.RegistrationRequest;
+import com.zep.UserAuth.events.RegistrationCompleteEvent;
+import com.zep.UserAuth.models.User;
+import com.zep.UserAuth.repository.VerificationTokenRepository;
+import com.zep.UserAuth.services.UserService;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.ApplicationEventPublisher;
