@@ -10,6 +10,7 @@ public class UserAuthApplication {
 		
 		SpringApplication.run(UserAuthApplication.class, args);
 		System.out.println("User Auth");
+		System.out.println("Server running on port 8084");
 	}
 
 }
